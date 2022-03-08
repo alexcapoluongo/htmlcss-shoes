@@ -52,42 +52,46 @@ li{
     top:0;
     left:0;
     background-color: rgba(0,0,0,.2);
-}
+} 
 
 /* main */
 
+/* image-container */
 .shoes-container{
     width:calc(100vw);
     height:calc(100vh);
-    background-color: aqua;
-}
-
-.shoes-image{
-background-repeat: no-repeat;
-background-position: center;
-position: relative;
+    position:relative;
 }
 
 #scarpa1{
     background-color:red;
-    background-image: url(../img/01.png);
 }
 
 #scarpa2{
     background-color: green;
-    background-image: url(../img/02.png);
 
 }
 
 #scarpa3{
     background-color: yellow;
-    background-image: url(../img/03.png);
 
 }
 
+/* image */
+
+main img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:45%;
+}
+
+/* slogan */
+
 .slogan{
     position:absolute;
-    bottom:10px;
+    bottom:0;
     left:50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
