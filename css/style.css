@@ -92,8 +92,11 @@ position: relative;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
     color:yellow;
-    font-size: 5em;
+    font-size: 3em;
     font-weight: bold;
     text-align: center;
 }
 
+#slogan-verde{
+    color:green;
+}
