@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+/* common */
+
+html{
+    scroll-behavior: smooth;
+}
+
 /* menu */
 
 .menu{   
@@ -13,7 +19,7 @@
     position:fixed;
     top:3%;
     right:1%;
-    background-color: red;
+    /* background-color: red; */
     z-index:100;
  }
 
@@ -33,18 +39,29 @@ li a{
     width:30px;
 }
 
-/* ul{
-    position:fixed;
-    right:1%;
-    top:10%;
-    
-}
-*/
 li{
     float:left;
     list-style: none;
     padding:10px;
 } 
 
+/* main */
 
+.shoes-container{
+    width:calc(100vw);
+    height:calc(100vh);
+    background-color: aqua;
+}
+
+#scarpa1{
+    background-color:red;
+}
+
+#scarpa2{
+    background-color: green;
+}
+
+#scarpa3{
+    background-color: yellow;
+}
 
