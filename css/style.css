@@ -10,6 +10,7 @@
 
 html{
     scroll-behavior: smooth;
+    font-family: 'Smooch Sans', sans-serif;
 }
 
 /* menu */
@@ -55,6 +56,10 @@ li{
 
 #scarpa1{
     background-color:red;
+    background-image: url(../img/01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
 }
 
 #scarpa2{
@@ -63,5 +68,16 @@ li{
 
 #scarpa3{
     background-color: yellow;
+}
+
+.slogan{
+    position:absolute;
+    bottom:10px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color:yellow;
+    font-size: 3em;
+    text-align: center;
 }
 
