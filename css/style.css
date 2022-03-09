@@ -13,11 +13,23 @@ html{
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-.shoes-container{
-    width:calc(100vw);
-    height:calc(100vh);
+.shoe{
+    width:100vh;
+    height:100vh;
     position:relative;
-    text-align:center;
+}
+
+.shoe-content{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width:50%;
+    text-align: center;
+}
+
+img{
+    width:100%;
 }
 
 /* menu */
@@ -80,30 +92,14 @@ li{
 
 }
 
-/* image */
-
-
-
-.shoe-content{
-    position:absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    width:50%;
-}
 
 /* slogan */
 
 .slogan{
-     position:absolute;
-    /*bottom:0;
-    left:50%;
-    transform: translate(-50%, -50%); */
     text-transform: uppercase;
     color:yellow;
     font-size: 3em;
     font-weight: bold;
-    text-align: center;
 }
 
 #slogan-verde{
